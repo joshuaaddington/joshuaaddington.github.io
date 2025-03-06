@@ -23,6 +23,6 @@ Hi! I'm **Joshua Addington**, a mechanical engineering student at Brigham Young 
 - **Wencor Group** – Applied GD&T and metrology techniques for aircraft components  
 
 ## 📫 Contact  
-- **LinkedIn:** [[www.linkedin.com/in/joshua-addington-a750841a6]](url)
-- **GitHub:** [[https://github.com/joshuaaddington]](url)
-- **Email:** [[joshuaaddington@gmail.com]](url)
+- **LinkedIn:** [www.linkedin.com/in/joshua-addington-a750841a6](url)
+- **GitHub:** [https://github.com/joshuaaddington](url)
+- **Email:** [joshuaaddington@gmail.com](url)

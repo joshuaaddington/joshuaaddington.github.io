@@ -1,6 +1,6 @@
 # Joshua Addington - Mechanical Engineer | Mechatronics & Robotics  
 
-Hi! I'm **Joshua Addington**, a mechanical engineering student at Brigham Young University, graduating in **August 2025**. I have a strong passion for **mechatronics, robotics, and control systems**, and I enjoy working on hands-on projects that combine mechanical design, electronics, and software.  
+Hi! I'm **Joshua Addington**, a mechanical engineering student at Brigham Young University, graduating in **August 2025**. I have a strong passion for **mechatronics, robotics, and control systems**, and I enjoy working on complex, hands-on projects that combine mechanical design, electronics, and software.  
 
 ## 🔧 Skills & Interests  
 - **Mechatronics & Robotics** – Hardware Design, Kinematics, and Dynamics
@@ -23,7 +23,6 @@ Hi! I'm **Joshua Addington**, a mechanical engineering student at Brigham Young 
 - **Wencor Group** – Applied GD&T and metrology techniques for aircraft components  
 
 ## 📫 Contact  
-- **LinkedIn:** [www.linkedin.com/in/joshua-addington-a750841a6]  
-- **GitHub:** [https://github.com/joshuaaddington]  
-- **Email:** [joshuaaddington@gmail.com]  
-
+- **LinkedIn:** www.linkedin.com/in/joshua-addington-a750841a6
+- **GitHub:** https://github.com/joshuaaddington
+- **Email:** joshuaaddington@gmail.com

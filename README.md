@@ -25,4 +25,4 @@ Hi! I'm **Joshua Addington**, a mechanical engineering student at Brigham Young 
 ## 📫 Contact  
 - **LinkedIn:** <a href="https://linkedin.com/in/joshua-addington-a750841a6"> Joshua Addington</a>
 - **GitHub:** <a href="https://github.com/joshuaaddington"> Joshuaaddington </a>
-- <a href="mailto:joshuaaddington@gmail.com.com">Email me joshuaaddington@gmail.com</a>
+- **Email me:** <a href="mailto:joshuaaddington@gmail.com.com">joshuaaddington@gmail.com</a>

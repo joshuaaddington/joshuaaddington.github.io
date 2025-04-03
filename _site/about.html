@@ -1,18 +1,72 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About</title>
+    <style>
+      /* Reset default margin & padding */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      nav {
+        background: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        margin-right: 15px;
+      }
+
+      nav a:hover {
+        color: #007bff;
+      }
+
+      .content {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
   </head>
   <body>
     <nav>
-  <a href="/">Home</a>
-  <a href="/about.html">About</a>
-</nav>
+      <div><a href="/">Home</a></div>
+      <div>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </nav>
 
-    <h1 id="about-page">About page</h1>
+    <div class="content">
+      <h1 id="about-page">About page</h1>
 
-<p>this is text</p>
+<p>this is text
+<a href="https://joshuaaddington.com/Home">Home</a></p>
 
+    </div>
   </body>
 </html>

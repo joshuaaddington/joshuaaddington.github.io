@@ -5,4 +5,5 @@ title: About
 # About page
 
 this is text
-[Home](https://joshuaaddington.com)
+[Home](/)
+<img src="/assets/images/IMG_5184.jpg" alt = "sketch" width = "600">

@@ -4,4 +4,4 @@ title: Projects
 ---
 # School Projects
 
-<img src="/assets/images/IMG_5184.jpg" alt = "sketch" width = "600">
+<img src="/assets/images/Screenshot 2025-04-04 144101.png" alt = "sketch" width = "600">

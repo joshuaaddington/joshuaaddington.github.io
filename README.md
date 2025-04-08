@@ -7,4 +7,4 @@ I made this portfolio to show off some of my skills and projects that I've worke
 It can be accessed at https://joshuaaddington.com
 Thanks for checking it out!
 
-*This portfolio was created with the help of A.I. tools*
+\**This portfolio was created with the help of A.I. tools*

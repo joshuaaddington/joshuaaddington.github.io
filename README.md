@@ -4,4 +4,5 @@ Hi! I'm **Joshua Addington**, a mechanical engineering student at Brigham Young 
 
 I made this portfolio to show off some of my skills and projects that I've worked on
 
-It can be accessed at joshuaaddington.com 
+It can be accessed at https://joshuaaddington.com
+Thanks for checking it out!

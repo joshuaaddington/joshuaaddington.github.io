@@ -1,6 +1,6 @@
 # Joshua Addington - Mechanical Engineer | Electro-mechanical systems 
 
-Hi! I'm **Joshua Addington**, a mechanical engineering student at BYU, graduating in **August 2025**. I have a passion for **mechatronics, controls, and systems engineering**, and I enjoy working on complex, hands-on projects that combine mechanical design, electronics, and software. In my free time I love to backpack, rock climb, and tinker on projects at home.
+Hi! I'm **Joshua Addington**, a mechanical engineering student at BYU, graduating in **August 2025**. I have a passion for **mechatronics, controls, and systems engineering**, and I enjoy working on complex, hands-on projects that combine mechanical design, electronics, and software. In my free time I love to backpack, rock climb, and design personal projects.
 
 I made this portfolio to show off some of my skills and projects that I've worked on.
 

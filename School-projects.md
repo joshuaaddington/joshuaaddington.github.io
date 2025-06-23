@@ -2,9 +2,9 @@
 layout: default
 title: Projects
 ---
-# School Projects
+**# School Projects**
 
-## Drone Propeller DOE surrogate model
+**## Drone Propeller DOE surrogate model**
 - This project aimed to create a surrogate model that predicts drone propeller performance (thrust per watt) based on a range of design inputs. A Design of Experiments (DOE) approach was used to sample a variety of geometries and operating conditions. The data generated from physical tests was then used to fit a hyper-surface which could be used to predict the performance of other propeller geometries.
 
 **Procedure Applied:**
@@ -23,9 +23,9 @@ title: Projects
 - Built and validated a surrogate model (able to explain 83% of the variance in the data)
 - Demonstrated the potential for using surrogate modeling to significantly reduce the time and cost of optimizing propeller designs.
 
-## Controls Portfolio
+**## Controls Portfolio**
 - In this course, 
 
-## Line Following Robot
+**## Line Following Robot**
 
-## Pipsqueak Engine
+**## Pipsqueak Engine**

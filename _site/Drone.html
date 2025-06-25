@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Drone Propeller DOE Surrogate Model</title>
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
@@ -33,15 +33,40 @@
     </nav>
     
     <div class="content">
-      <div style="text-align: center; ">
-    <h1 class="urbanist-thin">Joshua Addington<br>Mechanical Engineer</h1>
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; flex-direction: column; gap: 10px;">
-    <img src = "/assets/images/IMG_4180.jpg" alt = "Profile Picture">
-    <h2 class="urbanist-thin">Welcome to my website!</h2>
-    <p class="urbanist-thin" style="text-align: center;">I am a graduating mechanical engineer with a passion for electromechanical systems, controls, and design. Feel free to check out some of my projects and get in touch!</p>
-</div>
+      <body>
+<div>
+    
+<nav>
+    <a href="School-projects.html">Back to School Projects</a>
+</nav>
 
+<h1>Drone Propeller DOE Surrogate Model</h1>
+    <p> 
+        This project aimed to create a surrogate model that predicts drone propeller performance (thrust per watt) based on a range of design inputs. A Design of Experiments (DOE) approach was used to sample a variety of geometries and operating conditions. The data generated from physical tests was then used to fit a hyper-surface which could be used to predict the performance of other propeller geometries.
+    </p>
+
+    <p style="font-weight: bold;">Procedure Applied:</p>
+    <ul>
+        <li>A Python script using the Fusion 360 API was developed to procedurally generate propeller geometries.</li>
+        <li>Latin hypercube sampling (a DOE technique) was used to generate a representative set of 27 unique geometries.</li>
+        <li>These propellers were 3D printed and tested under controlled conditions to measure thrust and power consumption.</li>
+    </ul>
+
+    <p style="font-weight: bold;">Skills Applied:</p>
+    <ul>
+        <li>Python (NumPy, matplotlib, scipy.stats)</li>
+        <li>DOE techniques (full factorial, Latin hypercube sampling)</li>
+        <li>Data visualization and interpretation</li>
+        <li>3D CAD modeling, printing, and physical testing</li>
+    </ul>
+
+    <p style="font-weight: bold;">Key Outcomes:</p>
+    <ul>
+        <li>Built and validated a surrogate model (able to explain 83% of the variance in the data)</li>
+        <li>Demonstrated the potential for using surrogate modeling to significantly reduce the time and cost of optimizing propeller designs.</li>
+    </ul>
+</div>
+</body>
     </div>
     
     

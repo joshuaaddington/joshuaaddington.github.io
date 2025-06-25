@@ -35,6 +35,12 @@
     <div class="content">
       {{ content }}
     </div>
+    
+    {% if page.footer_nav %}
+      <div class="footer-nav">
+        {{ page.footer_nav }}
+      </div>
+    {% endif %}
 
     <script>
       function toggleDropdown(event) {

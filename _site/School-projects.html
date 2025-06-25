@@ -33,39 +33,47 @@
     </nav>
     
     <div class="content">
-      <body>
-  <div class="content">
-    <h1>School Projects</h1>
-
-    <h2>Drone Propeller DOE surrogate model</h2>
-    <p> 
-      This project aimed to create a surrogate model that predicts drone propeller performance (thrust per watt) based on a range of design inputs. A Design of Experiments (DOE) approach was used to sample a variety of geometries and operating conditions. The data generated from physical tests was then used to fit a hyper-surface which could be used to predict the performance of other propeller geometries.
-    </p>
-
-    <p>Procedure Applied:</p>
-    <ul>
-      <li>A Python script using the Fusion 360 API was developed to procedurally generate propeller geometries.</li>
-      <li>Latin hypercube sampling (a DOE technique) was used to generate a representative set of 27 unique geometries.</li>
-      <li>These propellers were 3D printed and tested under controlled conditions to measure thrust and power consumption.</li>
-    </ul>
-
-    <p>Skills Applied:</p>
-    <ul>
-      <li>Python (NumPy, matplotlib, scipy.stats)</li>
-      <li>DOE techniques (full factorial, Latin hypercube sampling)</li>
-      <li>Data visualization and interpretation</li>
-      <li>3D CAD modeling, printing, and physical testing</li>
-    </ul>
-
-    <p>Key Outcomes:</p>
-    <ul>
-      <li>Built and validated a surrogate model (able to explain 83% of the variance in the data)</li>
-      <li>Demonstrated the potential for using surrogate modeling to significantly reduce the time and cost of optimizing propeller designs.</li>
-    </ul>
-  </div>
-</body>
-
+          <h1>School Projects</h1>
+      <a href="Drone.html">Drone Propeller DOE surrogate model</a>
+      <p> 
+        This project aimed to create a surrogate model that predicts drone propeller performance (thrust per watt) 
+        based on a range of design inputs. A Design of Experiments (DOE) approach was used to sample 
+        a variety of geometries and operating conditions. The data generated from physical tests was 
+        then used to fit a hyper-surface which could be used to predict the performance of other propeller geometries.
+      </p>
+      <a href="Controls.html">Me En 431 Design of Control Systems</a>
+      <p>
+        During my senior year, I had the opportunity to take a course on control systems design. 
+        The course was comprised of a series of case studies as well as a physical lab. 
+        For each of these case studies, we modeled its behavior using Lagrangian Dynamics, 
+        controlled it using both PID and state space controllers, all using tools in python like sympy and numpy. 
+      </p>
+      <a href="Robotics.html">Me En 537 Robotics </a>
+      <p>
+        In this course, I learned about the fundamentals of robotics, including forward and inverse kinematics,
+        trajectory planning, dynamics, and control. The course was mainly focused on the mathematical modeling of robotic systems,
+        but we also had a lab component where we implemented some of the concepts using a robotic arm. The majority of the modeling and 
+        mathematics was done using Python libraries like sympy and numpy, and we used ROS2 for the lab component.
+      </p>
+      <a href="AirEngine.html">Single Cylinder Air Engine</a>
+      <p>
+        In a manufacturing processes course, I worked with a team to design and build a single-cylinder air engine. We used a variety of manufacturing
+        methods, including manual milling and turning, metal casting, and powdered metallurgic sintering.
+        We were able to successfully run the air engine at pressures as low as 9 psi.
+      </p>
+      <a href="LineFollower.html">Line Following Robot</a>
+      <p>
+        This project involved designing and building a line following robot using a PIC24 microcontroller. We were able to use PD control in conjunction
+        with infrared sensors to achieve a robust line following behavior. The project was a great deep-dive into embedded systems as we started from first principles 
+        such as oscillators, bit registers, op-amp circuits, analog to digital conversion, and more.
+      </p>      
     </div>
+    
+    
+      <div class="footer-nav">
+        <nav><a href="index.html">Back to Home</a></nav>
+      </div>
+    
 
     <script>
       function toggleDropdown(event) {

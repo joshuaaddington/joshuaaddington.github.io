@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projects</title>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://kit.fontawesome.com/a5d89ad2bf.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav style = "display: flex; justify-content: space-between; align-items: center;">
@@ -34,46 +35,79 @@
     
     <div class="content">
           <h1>School Projects</h1>
-      <a href="Drone.html">Drone Propeller DOE surrogate model</a>
-      <img src="/assets/images/DronePropeller.png" alt="Drone Propeller Surrogate Model" style="width: 80%; height: auto;">
-      <p> 
+<!-- DRONE -->
+      <a href="Drone.html">Drone Propeller DOE surrogate model
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/DronePropeller.jpg" alt="Drone Propeller Surrogate Model 1" style="height: auto;width: 40%; ">
+          <img src="/assets/images/DronePropeller2.jpg" alt="Drone Propeller Surrogate Model 2" style="height: auto;width: 50%;">
+        </div>  
+      </a>
+      <p class = "project-description">
         This project aimed to create a surrogate model that predicts drone propeller performance (thrust per watt) 
         based on a range of design inputs. A Design of Experiments (DOE) approach was used to sample 
         a variety of geometries and operating conditions. The data generated from physical tests was 
-        then used to fit a hyper-surface which could be used to predict the performance of other propeller geometries.
+        used to fit a hyper-surface which could be used to predict the performance of other propeller geometries.
       </p>
-      <a href="Controls.html">Me En 431 Design of Control Systems</a>
-      <p>
+      <br>
+<!-- CONTROLS -->
+      <a href="Controls.html">Me En 431 Design of Control Systems
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/DronePropeller.jpg" alt="Drone Propeller Surrogate Model 1" style="height: auto;width: 40%; ">
+          <img src="/assets/images/DronePropeller2.jpg" alt="Drone Propeller Surrogate Model 2" style="height: auto;width: 50%;">
+        </div> 
+      </a>
+      <p class = "project-description">
         During my senior year, I had the opportunity to take a course on control systems design. 
         The course was comprised of a series of case studies as well as a physical lab. 
-        For each of these case studies, we modeled its behavior using Lagrangian Dynamics, 
-        controlled it using both PID and state space controllers, all using tools in python like sympy and numpy. 
+        For each of these case studies, we modeled the system behavior using Lagrangian dynamics 
+        and implemented control using both PID and state-space controllers, all with tools in Python such as SymPy and NumPy. 
       </p>
-      <a href="Robotics.html">Me En 537 Robotics </a>
-      <p>
+      <br>
+<!-- ROBOTICS -->
+      <a href="Robotics.html">Me En 537 Robotics 
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/DronePropeller.jpg" alt="Drone Propeller Surrogate Model 1" style="height: auto;width: 40%; ">
+          <img src="/assets/images/DronePropeller2.jpg" alt="Drone Propeller Surrogate Model 2" style="height: auto;width: 50%;">
+        </div> 
+      </a>
+      <p class = "project-description">
         In this course, I learned about the fundamentals of robotics, including forward and inverse kinematics,
         trajectory planning, dynamics, and control. The course was mainly focused on the mathematical modeling of robotic systems,
         but we also had a lab component where we implemented some of the concepts using a robotic arm. The majority of the modeling and 
-        mathematics was done using Python libraries like sympy and numpy, and we used ROS2 for the lab component.
+        mathematics was done using Python libraries like SymPy and NumPy, and we used ROS2 for the lab component.
       </p>
-      <a href="AirEngine.html">Single Cylinder Air Engine</a>
-      <p>
+      <br>
+<!-- AIR ENGINE -->
+      <a href="AirEngine.html">Single Cylinder Air Engine
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/DronePropeller.jpg" alt="Drone Propeller Surrogate Model 1" style="height: auto;width: 40%; ">
+          <img src="/assets/images/DronePropeller2.jpg" alt="Drone Propeller Surrogate Model 2" style="height: auto;width: 50%;">
+        </div> 
+      </a>
+      <p class = "project-description">
         In a manufacturing processes course, I worked with a team to design and build a single-cylinder air engine. We used a variety of manufacturing
         methods, including manual milling and turning, metal casting, and powdered metallurgic sintering.
         We were able to successfully run the air engine at pressures as low as 9 psi.
       </p>
-      <a href="LineFollower.html">Line Following Robot</a>
-      <p>
+      <br>
+<!-- LINE FOLLOWER -->
+      <a href="LineFollower.html">Line Following Robot
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/DronePropeller.jpg" alt="Drone Propeller Surrogate Model 1" style="height: auto;width: 40%; ">
+          <img src="/assets/images/DronePropeller2.jpg" alt="Drone Propeller Surrogate Model 2" style="height: auto;width: 50%;">
+        </div> 
+      </a>
+      <p class = "project-description">
         This project involved designing and building a line following robot using a PIC24 microcontroller. We were able to use PD control in conjunction
         with infrared sensors to achieve a robust line following behavior. The project was a great deep-dive into embedded systems as we started from first principles 
         such as oscillators, bit registers, op-amp circuits, analog to digital conversion, and more.
       </p>      
+<br>
+<nav style="background: #ffffff ; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); display: flex; justify-content: space-around;">
+  <a href="index.html"><i class="fas fa-house icon-space"></i> Go back to Home</a>
+</nav>
     </div>
     
-    
-      <div class="footer-nav">
-        <nav><a href="index.html">Back to Home</a></nav>
-      </div>
     
 
     <script>

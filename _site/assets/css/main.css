@@ -65,7 +65,7 @@ img {
 }
 
 .glow-img {
-  transition: box-shadow 0.1s ease;
+  transition: box-shadow 0.2s ease;
 }
 
 .glow-img:hover {

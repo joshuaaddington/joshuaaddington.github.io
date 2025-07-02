@@ -31,7 +31,7 @@
       <div class="dropdown">
         <a class="urbanist-normal dropdown-toggle" href="#" onclick="toggleDropdown(event)">Contact</a>
         <div class="dropdown-menu" style = "text-align: center; position: absolute; top: calc(100% + 14px); right: calc(-50%)">
-          <a href="contact-form.html"> Email</a>
+          <a href="mailto:joshuaaddington@gmail.com" target="_blank" rel="noopener noreferrer"> Email</a>
           <a href="https://www.linkedin.com/in/joshua-addington-a750841a6/">LinkedIn</a>
           <a href="https://github.com/joshuaaddington">Github</a>
         </div>
@@ -40,20 +40,74 @@
     </nav>
     
     <div class="content">
-      <h1 id="personal-projects">Personal Projects</h1>
-
-<h2 id="in-progress-pid-controlled-self-balancing-robot">(In Progress) PID controlled Self-Balancing Robot</h2>
-<p>PHOTO
-<br /></p>
-
-<h2 id="split-keyboard">Split Keyboard</h2>
-<p><img src="/assets/images/Keyboard1.jpg" alt="a photo of a split keyboard" width="350" />
-<br /></p>
-
-<h2 id="cycloidal-drive-gearbox">Cycloidal Drive Gearbox</h2>
-
-<h2 id="this-website">This Website</h2>
-
+          <h1>Personal Projects</h1>
+<!-- Balancing Robot -->
+      <a href="BalancingRobot.html">Balancing Robot (In Progress)
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/BalancingRobot1.jpg" alt="Balancing Robot 1" style="height: auto;width: 40%; ">
+          <img src="/assets/images/BalancingRobot2.jpg" alt="Balancing Robot 2" style="height: auto;width: 50%;">
+        </div>  
+      </a>
+      <p class = "project-description">
+        This is a project that I am currently working on. The goal is to build a self-balancing robot using an ESP32 microcontroller.
+        It uses a combination of gyroscope and accelerometer data to determine its orientation and drives two brushless DC motors to maintain balance.
+        The motor driver and control system use FOC (Field Oriented Control) and PID algorithms to achieve smooth motor control and stability.
+        I built the battery using 18650 lithium-ion cells and a BMS (Battery Management System) to ensure safe operation. Currently, I'm running into issues with
+        the magnetic motor position encoders, which are interfering with proper motor control.
+      </p>
+      <br>
+<!-- Keyboard --> 
+      <a href="Keyboard.html">Custom Split Mechanical Keyboard
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/Keyboard1.jpg" alt="Keyboard 1" style="height: auto;width: 56%; ">
+          <img src="/assets/images/Keyboard2.jpg" alt="Keyboard 2" style="height: auto;width: 40%;">
+        </div> 
+      </a>
+      <p class = "project-description">
+        I designed and built a custom split mechanical keyboard using a hand-soldered logic matrix and an RP2040 microcontroller.
+        The base is laser-cut and the key-plate is 3D printed. The keyboard features a QMK firmware implementation that allows for custom key mappings and macros.
+        The project was based on the <a class="inline-link" href="https://github.com/joe-scotto/scottokeebs/tree/main/Scotto44">Scotto44</a> keyboard design.
+      </p>
+      <br>
+<!-- Website -->
+      <a href="Website.html">This Website
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/Website1.JPG" alt="Website 1" style="height: auto;width: 46%; ">
+          <img src="/assets/images/Website2.JPG" alt="Website 2" style="height: auto;width: 50%;">
+        </div> 
+      </a>
+      <p class = "project-description">
+        I learned the basics of web development by building this personal website using HTML, CSS, and Jekyll.
+        The site is hosted on GitHub Pages and the source code is available on this <a class="inline-link" href="https://github.com/joshuaaddington/joshuaaddington.github.io">GitHub repository</a>.
+      </p>
+      <br>
+<!-- Cycloidal Drive -->
+      <a href="CycloidalDrive.html">Capstone: AI-powered parts database search
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/DronePropeller.jpg" alt="Drone Propeller Surrogate Model 1" style="height: auto;width: 40%; ">
+          <img src="/assets/images/DronePropeller2.jpg" alt="Drone Propeller Surrogate Model 2" style="height: auto;width: 50%;">
+        </div> 
+      </a>
+      <p class = "project-description">
+        PLACE HOLDER TEXT
+      </p>      
+<br>
+<!-- Pc Case -->
+      <a href="PcCase.html">Single Cylinder Air Engine
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+          <img src="/assets/images/PcCase1.jpg" alt="Pc Case 1" style="height: auto;width: 40%; ">
+          <img src="/assets/images/PcCase2.jpg" alt="Pc Case 2" style="height: auto;width: 50%;">
+        </div> 
+      </a>
+      <p class = "project-description">
+        In a manufacturing processes course, I worked with a team to design and build a single-cylinder air engine. We used a variety of manufacturing
+        methods, including manual milling and turning, metal casting, and powdered metallurgic sintering.
+        We were able to successfully run the air engine at pressures as low as 9 psi.
+      </p>
+      <br>
+<nav style="background: #ffffff ; box-shadow: none; display: flex; justify-content: space-around;">
+  <a href="index.html"><i class="fas fa-house icon-space"></i>Home</a>
+</nav>
     </div>
     
     

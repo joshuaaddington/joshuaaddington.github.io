@@ -1,0 +1,44 @@
+---
+layout: default
+title: Balancing Robot
+---
+<h1>Balancing Robot</h1>
+    <p> 
+        As I'm interested in robotics and control systems, I am currenty working on a segway-style balancing robot. I've designed it to use an ESP32 microcontroller, which processes data from a gyroscope and accelerometer to maintain balance. The robot uses two brushless DC motors for movement, controlled via a motor driver that implements Field Oriented Control (FOC) and PID algorithms for smooth operation.
+        The robot is powered using a battery that is built using 18650 lithium-ion cells with a BMS (battery management system) to ensure safe operation. The design uses two boards, a main board that does calculations for the control system and a motor driver board that monitors the motor position and drives them using the FOC algorithm implemented with a library salled SimpleFOC. 
+        The two boards communicate wirelessly using the ESP-NOW protocol, allowing for data exchange between the two without slowing the FOC control loop. The main board also has a Bluetooth module for remote control and monitoring.
+        Currently I'm working to resolve issues with the magnetic motor position encoders. They communicate via I2C, but they are intended for 5V microcontrollers, so they will need replacing as the ESP32 operates at 3.3V.
+    </p>
+
+    <p style="font-weight: bold;">Procedure Applied:</p>
+    <ul>
+        <li>Designed and built a self-balancing robot using an ESP32 microcontroller.</li>
+        <li>Implemented a control system using gyroscope and accelerometer data to maintain balance.</li>
+        <li>Used two brushless DC motors for movement, controlled via a motor driver that implements Field Oriented Control (FOC) and PID algorithms.</li>
+        <li> Built the battery using 18650 lithium-ion cells with a BMS (battery management system)</li>
+
+    </ul>
+
+    <p style="font-weight: bold;">Skills Applied:</p>
+    <ul>
+        <li>Microcontroller programming (ESP32)</li>
+        <li>Control systems design (PID, FOC)</li>
+        <li>Wireless communication (ESP-NOW, Bluetooth)</li>
+        <li>Electronics design and prototyping</li>
+        <li>3D modeling and printing for custom parts</li>
+    </ul>
+
+    <p style="font-weight: bold;">Key Outcomes:</p>
+    <ul>
+        <li>Outcomes are still pending as the project is in progress.</li>
+    </ul>
+    <p style="font-weight: bold;">Gallery:</p>
+<img src="/assets/images/BalancingRobot2.jpg" alt="Balancing 2" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>Photo of the current state of the robot, with the motor driver board, battery pack, and step-down voltage converters visible</p>
+<img src="/assets/images/BalancingRobot1.jpg" alt="Balancing 1" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>3D CAD model of the robot frame in Solidworks</p>
+    <br>
+<nav style="background: #ffffff ; box-shadow: none; display: flex; flex-direction: row; justify-content: space-around;">
+    <a href="Personal-projects.html"><i class="fas fa-house icon-space"></i> Go back to Personal Projects</a>
+    <a href="Keyboard.html"><i class="fas fa-chevron-right icon-space"></i>Next</a>
+</nav>

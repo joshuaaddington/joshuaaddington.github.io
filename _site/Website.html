@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://kit.fontawesome.com/a5d89ad2bf.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav style = "display: flex; justify-content: space-between; align-items: center;">
+      <div><a href="/" class="urbanist-normal">Home</a></div>
+      <div style = "display: flex; gap: 15px; align-items: center;">
+        <a href="/assets/Joshua_Addington_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <div class="dropdown">
+          <a class="urbanist-normal dropdown-toggle" href="#" onclick="toggleDropdown(event)"> Projects</a>
+          <div class="dropdown-menu" style = "text-align: center; position: absolute; top: calc(100% + 14px); right: calc(-50%)">
+            <a href="/School-projects">School Projects</a>
+            <a href="/Personal-projects">Personal Projects</a>
+          </div>
+        </div>
+        
+      <div class="dropdown">
+        <a class="urbanist-normal dropdown-toggle" href="#" onclick="toggleDropdown(event)">Contact</a>
+        <div class="dropdown-menu" style = "text-align: center; position: absolute; top: calc(100% + 14px); right: calc(-50%)">
+          <a href="mailto:joshuaaddington@gmail.com" target="_blank" rel="noopener noreferrer"> Email</a>
+          <a href="https://www.linkedin.com/in/joshua-addington-a750841a6/">LinkedIn</a>
+          <a href="https://github.com/joshuaaddington">Github</a>
+        </div>
+      </div>
+    </div>
+    </nav>
+    
+    <div class="content">
+      <h1>Portfolio Website</h1>
+    <p>
+        I learned the basics of web development by building this personal website using HTML, CSS, and Jekyll.
+        The site is hosted on GitHub Pages and the source code is available in this <a class="inline-link" href="https://github.com/joshuaaddington/joshuaaddington.github.io">GitHub repository</a>.
+        I built the website to showcase my projects and skills as a mechanical engineer, and to provide a platform for potential employers to learn more about me.
+    </p>
+
+    <p style="font-weight: bold;">Procedure Applied:</p>
+    <ul>
+        <li>Learned the basics of web development using HTML, CSS, JavaScript and Jekyll (a static site generator)</li>
+        <li>Designed and implemented a personal portfolio website to showcase projects and skills</li>
+        <li>Utilized GitHub Pages for hosting the website</li>
+    </ul>
+
+    <p style="font-weight: bold;">Skills Applied:</p>
+    <ul>
+        <li>Web development (HTML, CSS, Jekyll)</li>
+        <li>Version control (Git, GitHub)</li>
+        <li>Responsive design and user experience</li>
+        <li>Content management and website deployment</li>
+    </ul>
+
+    <p style="font-weight: bold;">Key Outcomes:</p>
+    <ul>
+        <li>Created a fully functional portfolio website to showcase projects and skills</li>
+    </ul>
+    <p style="font-weight: bold;">Gallery:</p>
+<img src="/assets/images/Website1.jpg" alt="Website 1" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>Screenshot of some of the HTML code that makes up this website</p>
+<img src="/assets/images/html.webp" alt="Website 2" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>CSS, HTML, and JavaScript logos</p>
+    <br>
+<nav style="background: #ffffff ; box-shadow: none; display: flex; flex-direction: row; justify-content: space-around;">
+    <a href="Keyboard.html"><i class="fas fa-chevron-left icon-space"></i>Previous</a>
+    <a href="Personal-projects.html"><i class="fas fa-house icon-space"></i> Go back to Personal Projects</a>
+    <a href="CycloidalDrive.html">Next<i class="fas fa-chevron-right icon-space"></i></a>
+</nav>
+    </div>
+    
+    
+
+    <script>
+      function toggleDropdown(event) {
+        event.preventDefault();
+        const dropdown = event.target.closest('.dropdown');
+        const menu = dropdown.querySelector('.dropdown-menu');
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+      }
+    
+      // Optional: close dropdown when clicking outside
+      document.addEventListener('click', function (e) {
+        const openMenus = document.querySelectorAll('.dropdown-menu');
+        openMenus.forEach(menu => {
+          if (!menu.contains(e.target) && !menu.previousElementSibling.contains(e.target)) {
+            menu.style.display = 'none';
+          }
+        });
+      });
+    </script>    
+  </body>
+</html>

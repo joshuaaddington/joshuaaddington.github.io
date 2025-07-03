@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Split Keyboard</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://kit.fontawesome.com/a5d89ad2bf.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav style = "display: flex; justify-content: space-between; align-items: center;">
+      <div><a href="/" class="urbanist-normal">Home</a></div>
+      <div style = "display: flex; gap: 15px; align-items: center;">
+        <a href="/assets/Joshua_Addington_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <div class="dropdown">
+          <a class="urbanist-normal dropdown-toggle" href="#" onclick="toggleDropdown(event)"> Projects</a>
+          <div class="dropdown-menu" style = "text-align: center; position: absolute; top: calc(100% + 14px); right: calc(-50%)">
+            <a href="/School-projects">School Projects</a>
+            <a href="/Personal-projects">Personal Projects</a>
+          </div>
+        </div>
+        
+      <div class="dropdown">
+        <a class="urbanist-normal dropdown-toggle" href="#" onclick="toggleDropdown(event)">Contact</a>
+        <div class="dropdown-menu" style = "text-align: center; position: absolute; top: calc(100% + 14px); right: calc(-50%)">
+          <a href="mailto:joshuaaddington@gmail.com" target="_blank" rel="noopener noreferrer"> Email</a>
+          <a href="https://www.linkedin.com/in/joshua-addington-a750841a6/">LinkedIn</a>
+          <a href="https://github.com/joshuaaddington">Github</a>
+        </div>
+      </div>
+    </div>
+    </nav>
+    
+    <div class="content">
+      <h1>Split Keyboard</h1>
+    <p>
+        I designed and built a custom split mechanical keyboard using a hand-soldered logic matrix and an RP2040 microcontroller.
+        The base is laser-cut and the key-plate is 3D printed. The keyboard features a QMK firmware implementation that allows for custom key mappings and macros.
+        The project was based on the <a class="inline-link" href="https://github.com/joe-scotto/scottokeebs/tree/main/Scotto44">Scotto44</a> keyboard design.
+ 
+    </p>
+
+    <p style="font-weight: bold;">Procedure Applied:</p>
+    <ul>
+        <li>Designed and built a custom split mechanical keyboard using an RP2040 microcontroller.</li>
+        <li>Hand-soldered a logic matrix for key detection.</li>
+        <li>Created a laser-cut base and 3D printed key-plate for the keyboard.</li>
+        <li>Implemented QMK firmware for custom key mappings and macros.</li>
+    </ul>
+
+    <p style="font-weight: bold;">Skills Applied:</p>
+    <ul>
+        <li>Microcontroller programming (RP2040)</li>
+        <li>Keyboard firmware development (QMK)</li>
+        <li>Electronics design and prototyping</li>
+        <li>3D modeling and printing for custom parts</li>
+    </ul>
+
+    <p style="font-weight: bold;">Key Outcomes:</p>
+    <ul>
+        <li>Successfully created a fully functional split keyboard with customizable layouts and works on any operating system</li>
+    </ul>
+    <p style="font-weight: bold;">Gallery:</p>
+<img src="/assets/images/Keyboard2.jpg" alt="Keyboard 2" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>Photo of the back of the keyboard, with the key switches and logic matrix visible</p>
+<img src="/assets/images/Keyboard1.jpg" alt="Keyboard 1" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>Finished keyboard</p>
+    <br>
+<nav style="background: #ffffff ; box-shadow: none; display: flex; flex-direction: row; justify-content: space-around;">
+    <a href="BalancingRobot.html"><i class="fas fa-chevron-left icon-space"></i>Previous</a>
+    <a href="Personal-projects.html"><i class="fas fa-house icon-space"></i> Go back to Personal Projects</a>
+    <a href="Website.html">Next<i class="fas fa-chevron-right icon-space"></i></a>
+</nav>
+    </div>
+    
+    
+
+    <script>
+      function toggleDropdown(event) {
+        event.preventDefault();
+        const dropdown = event.target.closest('.dropdown');
+        const menu = dropdown.querySelector('.dropdown-menu');
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+      }
+    
+      // Optional: close dropdown when clicking outside
+      document.addEventListener('click', function (e) {
+        const openMenus = document.querySelectorAll('.dropdown-menu');
+        openMenus.forEach(menu => {
+          if (!menu.contains(e.target) && !menu.previousElementSibling.contains(e.target)) {
+            menu.style.display = 'none';
+          }
+        });
+      });
+    </script>    
+  </body>
+</html>

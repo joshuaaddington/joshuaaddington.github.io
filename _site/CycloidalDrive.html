@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cycloidal Drive</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://kit.fontawesome.com/a5d89ad2bf.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav style = "display: flex; justify-content: space-between; align-items: center;">
+      <div><a href="/" class="urbanist-normal">Home</a></div>
+      <div style = "display: flex; gap: 15px; align-items: center;">
+        <a href="/assets/Joshua_Addington_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <div class="dropdown">
+          <a class="urbanist-normal dropdown-toggle" href="#" onclick="toggleDropdown(event)"> Projects</a>
+          <div class="dropdown-menu" style = "text-align: center; position: absolute; top: calc(100% + 14px); right: calc(-50%)">
+            <a href="/School-projects">School Projects</a>
+            <a href="/Personal-projects">Personal Projects</a>
+          </div>
+        </div>
+        
+      <div class="dropdown">
+        <a class="urbanist-normal dropdown-toggle" href="#" onclick="toggleDropdown(event)">Contact</a>
+        <div class="dropdown-menu" style = "text-align: center; position: absolute; top: calc(100% + 14px); right: calc(-50%)">
+          <a href="mailto:joshuaaddington@gmail.com" target="_blank" rel="noopener noreferrer"> Email</a>
+          <a href="https://www.linkedin.com/in/joshua-addington-a750841a6/">LinkedIn</a>
+          <a href="https://github.com/joshuaaddington">Github</a>
+        </div>
+      </div>
+    </div>
+    </nav>
+    
+    <div class="content">
+      <h1>Cycloidal Drive</h1>
+    <p>
+        This project was just a fun exercise in CAD modeling and 3D printing. I designed and built a cycloidal drive gearbox using 3D printed parts and off-the-shelf components.
+        The gearbox has a reduction ratio of 25:1 and is back-drivable. 
+    </p>
+
+    <p style="font-weight: bold;">Procedure Applied:</p>
+    <ul>
+        <li>Designed a cycloidal drive gearbox using Solidworks</li>
+        <li>3D printed the cycloidal disc and housing</li>
+        <li>Used off-the-shelf components to ensure smooth operation (bearings, bushings, etc.)</li>
+    </ul>
+
+    <p style="font-weight: bold;">Skills Applied:</p>
+    <ul>
+        <li>CAD modeling (Solidworks)</li>
+        <li>3D printing (FDM)</li>
+        <li>Mechanical assembly and testing</li>
+    </ul>
+
+    <p style="font-weight: bold;">Key Outcomes:</p>
+    <ul>
+        <li>Successfully created a functional cycloidal drive gearbox with a 25:1 reduction ratio</li>
+    </ul>
+    <p style="font-weight: bold;">Gallery:</p>
+<img src="/assets/images/Cycloidal1.jpg" alt="Cycloidal Drive 1" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>Photo of the CAD model in Solidworks</p>
+<img src="/assets/images/Cycloidal2.jpg" alt="Cycloidal Drive 2" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>Assembled cycloidal drive gearbox</p>
+<img src="/assets/images/Cycloidal3.jpg" alt="Cycloidal Drive 3" style="height: auto;width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<p>Photo of the gearbox disassembled</p>
+    <br>
+<nav style="background: #ffffff ; box-shadow: none; display: flex; flex-direction: row; justify-content: space-around;">
+    <a href="Website.html"><i class="fas fa-chevron-left icon-space"></i>Previous</a>
+    <a href="Personal-projects.html"><i class="fas fa-house icon-space"></i> Go back to Personal Projects</a>
+</nav>
+    </div>
+    
+    
+
+    <script>
+      function toggleDropdown(event) {
+        event.preventDefault();
+        const dropdown = event.target.closest('.dropdown');
+        const menu = dropdown.querySelector('.dropdown-menu');
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+      }
+    
+      // Optional: close dropdown when clicking outside
+      document.addEventListener('click', function (e) {
+        const openMenus = document.querySelectorAll('.dropdown-menu');
+        openMenus.forEach(menu => {
+          if (!menu.contains(e.target) && !menu.previousElementSibling.contains(e.target)) {
+            menu.style.display = 'none';
+          }
+        });
+      });
+    </script>    
+  </body>
+</html>
